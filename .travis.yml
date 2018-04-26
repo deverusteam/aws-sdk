@@ -1,0 +1,11 @@
+language: java
+sudo: required
+
+services:
+  - docker
+
+before_install:
+- docker build -t mso-net/lucee-aws .
+
+script:
+- docker run -e "aws_accountid=$aws_accountid" -e "aws_secretkey=$aws_secretkey" -e "dynamodb_table=$dynamodb_table" -e "elb_name=$elb_name" -e "elb_region=$elb_region" -e "lambda_method=$lambda_method" -e "route53_tld=$route53_tld" -e "s3_bucket=$s3_bucket" -e "ses_from=$ses_from" -e "ses_to=$ses_to" mso-net/lucee-aws

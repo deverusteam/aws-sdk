@@ -1,0 +1,56 @@
+{
+    "name":"My Package",
+    "version":"1.0.0",
+    "author":"",
+    "location":"https://s3.amazonaws.com/deverus-public-downloads/aws-sdk/1.0.0/aws-sdk-1.0.0.zip",
+    "homepage":"",
+    "documentation":"",
+    "repository":{
+        "type":"",
+        "URL":""
+    },
+    "bugs":"",
+    "slug":"@deverusDev/aws-sdk",
+    "shortDescription":"A sweet package",
+    "description":"",
+    "instructions":"",
+    "changelog":"",
+    "type":"projects",
+    "keywords":[],
+    "private":true,
+    "projectURL":"",
+    "license":[
+        {
+            "type":"",
+            "URL":""
+        }
+    ],
+    "contributors":[],
+    "dependencies":{},
+    "devDependencies":{},
+    "installPaths":{},
+    "scripts":{},
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ],
+    "testbox":{
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "labels":"",
+        "reporter":"",
+        "bundles":"",
+        "recurse":true,
+        "directory":"tests.specs",
+        "testBundles":"",
+        "testSuites":"",
+        "testSpecs":"",
+        "verbose":true,
+        "watchDelay":500,
+        "watchPaths":"**.cfc"
+    }
+}
